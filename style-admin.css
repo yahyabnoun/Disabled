@@ -1,0 +1,32 @@
+body a{
+    text-decoration: none;
+
+}
+body li{
+    list-style: none;
+}
+div .a:hover{
+    background-color: rgb(41, 141, 223);
+    border-radius: 100px;
+    
+}
+@media (min-width:1000px) {
+    .position1{
+        position: sticky;
+        height: 100vh;
+        top: 0;
+    }
+    
+}
+
+@media (max-width:1000px) {
+    .position1{
+        position: sticky;
+        top: 0;
+    }
+    .display1{
+        display: none!important;
+
+    }
+    
+}
